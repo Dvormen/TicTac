@@ -9,7 +9,7 @@ public class TextReader {
 
     BufferedReader br;
 
-    {
+    public void reader(){
         try {
             br = new BufferedReader(new FileReader("nevim.txt"));
             while (br.ready()) {
@@ -26,4 +26,7 @@ public class TextReader {
         }
     }
 }
+
+
+
 
